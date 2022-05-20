@@ -12,7 +12,7 @@ function Wheel(props) {
   const handleMoveCounterClockwise = () => {
     props.moveCounterClockwise()
   }
-  
+
   return (
     <div id="wrapper">
       <div id="wheel">
@@ -43,4 +43,11 @@ const mapStateToProps = (state) => {
 } 
 
 export default connect(mapStateToProps, {moveClockwise, moveCounterClockwise})(Wheel)
+
+
+
+
+
+
+
 
